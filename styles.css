@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to viewport height for vertical centering */
+    background: linear-gradient(to bottom, #2980b9, #2c3e50); /* Gradient background */
+    color: #fff; /* Text color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px; /* Enlarge the font size */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Remove or comment out the button styles below */
+/*
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+*/
+
+.splash {
+    /* Remove the position: fixed; property */
+    /* top: 0;
+    left: 0; */
+    /* width: 100%;
+    height: 100%; */
+    /* background-color: #f7f7f7; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 20px; /* Add padding for better appearance */
+    text-align: center; /* Center the content inside .splash */
+}
+
+.splash h1 {
+    font-size: 36px; /* Enlarge the font size */
+    margin-bottom: 10px;
+}
+
+.splash p {
+    font-size: 18px; /* Enlarge the font size */
+}
+.exit-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Style for the download button */
+a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 10px; /* Add margin between text and button */
+}
+/* Add this CSS to your styles.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum body height to viewport height for vertical centering */
+    background-color: #f4f4f4; /* Background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust font size */
+}
+
+main {
+    margin-top: 20px; /* Add margin for better spacing */
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+    margin-top: 5px; /* Add margin to separate the button from text */
+}
+
+a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 10px; /* Add margin between text and button */
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+/* Add this CSS to your styles.css file */
+
+.exit-button-container {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add spacing from the document list */
+}
+
+.exit-button {
+    background-color: #dc3545; /* Red color for exit button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: none; /* Initially hide the button */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to viewport height for vertical centering */
+    background: linear-gradient(to bottom, #000000, #333333); /* Gradient background from black to dark gray */
+    color: #fff; /* Text color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px; /* Enlarge the font size */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.splash {
+    padding: 20px; /* Add padding for better appearance */
+    text-align: center; /* Center the content inside .splash */
+}
+
+.splash h1 {
+    font-size: 36px; /* Enlarge the font size */
+    margin-bottom: 10px;
+}
+
+.splash p {
+    font-size: 18px; /* Enlarge the font size */
+}
